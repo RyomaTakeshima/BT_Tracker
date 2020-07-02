@@ -42,6 +42,7 @@
         app:srcCompat="@android:drawable/btn_star_big_on" />
 
     <LinearLayout
+        android:id="@+id/linearLayout"
         android:layout_width="390dp"
         android:layout_height="308dp"
         android:orientation="vertical"
@@ -61,7 +62,7 @@
             android:onClick="goToLogActivity"
             android:paddingLeft="8dp"
             android:paddingTop="10dp"
-            android:text="Log_Body_Temperature"
+            android:text="@string/log_body_temperature"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
             android:textColor="#FFFFFF" />
 
@@ -79,7 +80,7 @@
             android:onClick="goToNormalActivity"
             android:paddingLeft="8dp"
             android:paddingTop="10dp"
-            android:text="Check_Normal_Range"
+            android:text="@string/check_normal_range"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
             android:textColor="#FFFFFF" />
 
@@ -97,7 +98,7 @@
             android:onClick="goToMechanismActivity"
             android:paddingLeft="8dp"
             android:paddingTop="10dp"
-            android:text="Mechanism_of_Fever"
+            android:text="@string/mechanism_of_fever"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
             android:textColor="#FFFFFF" />
 
@@ -115,7 +116,7 @@
             android:onClick="goToHandlingActivity"
             android:paddingLeft="8dp"
             android:paddingTop="10dp"
-            android:text="HandlingFever"
+            android:text="@string/handlingfever"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
             android:textColor="#FFFFFF" />
 
@@ -126,4 +127,17 @@
 
     </LinearLayout>
 
+    <Button
+        android:id="@+id/setReminderButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="setReminder"
+        android:text="SetReminder"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        app:layout_constraintVertical_bias="0.148"
+        tools:ignore="OnClick" />
 </androidx.constraintlayout.widget.ConstraintLayout>

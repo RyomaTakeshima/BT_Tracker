@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Task10</string>
+    <string name="app_name">BT_Tracker</string>
     <string name="title_activity_normal">Settings</string>
 
     <!-- Preference Titles -->
@@ -16,4 +16,8 @@
     <string name="attachment_summary_on">Automatically download attachments for incoming emails
     </string>
     <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="log_body_temperature">Log_Body_Temperature</string>
+    <string name="check_normal_range">Check_Normal_Range</string>
+    <string name="mechanism_of_fever">Mechanism_of_Fever</string>
+    <string name="handlingfever">HandlingFever</string>
 </resources>
