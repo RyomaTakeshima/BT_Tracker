@@ -29,6 +29,6 @@ public class ConfirmActivity extends AppCompatActivity {
     }
     public void backToHome(View view) {
         Intent backHome = new Intent(this, MainActivity.class);
-        startActivity(backHome);    
+        startActivity(backHome);
     }
 }
