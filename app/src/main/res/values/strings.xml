@@ -58,4 +58,5 @@
 </string>
     <string name="back_to_home_android_onclick">BACK TO HOME android:onClick=</string>
     <string name="normal_body_temperature">Normal Body Temperature</string>
+    <string name="save">Save</string>
 </resources>
