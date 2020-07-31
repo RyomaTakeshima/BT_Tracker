@@ -2,10 +2,16 @@ package com.example.task10;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.app.AlarmManager;
+import android.app.NotificationChannel;
+import android.app.NotificationManager;
+import android.app.PendingIntent;
 import android.content.Intent;
 import android.net.Uri;
+import android.os.Build;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -75,6 +81,7 @@ public class MainActivity extends AppCompatActivity {
                     getSystemService(NotificationManager.class);
 // Create notification channel
             notificationManager.createNotificationChannel(channel);
+
         }
     }
 }
